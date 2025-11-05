@@ -1,0 +1,7 @@
+total 0
+drwxrwxrwx 1 gorodok gorodok 4096 Nov  5 19:08 .
+drwxrwxrwx 1 gorodok gorodok 4096 Nov  5 19:50 ..
+-rwxrwxrwx 1 gorodok gorodok   13 Nov  5 19:05 1
+-rwxrwxrwx 1 gorodok gorodok    9 Nov  5 19:05 2
+drwxrwxrwx 1 gorodok gorodok 4096 Nov  5 18:49 BASH_homework_Gorodnov
+-rwxrwxrwx 1 gorodok gorodok    0 Nov  5  2025 list.txt

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 echo 'Напишите название директории:'
 read directory 
 
@@ -15,11 +13,18 @@ if [ ! -d "$directory" ]; then
     exit 1
 fi
 
-for file in "$directory"/*; do
-    if [ -f "$file" ]; then
-        cp "$file" ./
-        echo "Скопирован: $(basename "$file")"
-    fi
+ls -la "$directory" > "$directory/list.txt"
+
+echo 'Введите название файла: '
+read file
+if [ -f "$directory/$file" ]; then
+	echo 'Файл существует'
+else 
+	echo 'Файла нет'
+fi
+
+for file in "$directory";do
+ls -la "$file"
 done
 
-echo "Готово! Файлы из '$directory' скопированы в текущую папку."
+
